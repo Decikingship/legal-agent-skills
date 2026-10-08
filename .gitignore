@@ -1,0 +1,24 @@
+# Python caches and local virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.venv/
+venv/
+env/
+
+# Local environment settings and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+.secrets/
+secrets/
+credentials.json
+secrets.json
+*.pem
+*.key
+
+# dist/, dist-experts/, and source .bak files are intentionally published.

@@ -1,0 +1,75 @@
+{
+  "_说明": "法律术语中英对照。收录高频且易错的术语——不是词典，是「翻错了会出事」的清单。",
+  "合同": {
+    "违约金": "liquidated damages（**不是 penalty**——英美法下 penalty 条款可能不可执行）",
+    "定金": "deposit / earnest money（中国法的定金罚则无直接对应，须加注说明）",
+    "解除合同": "terminate / rescind（terminate 向后生效，rescind 溯及既往，**不可混用**）",
+    "不可抗力": "force majeure",
+    "情势变更": "change of circumstances / hardship",
+    "要约": "offer",
+    "承诺": "acceptance",
+    "缔约过失责任": "culpa in contrahendo / pre-contractual liability",
+    "预期违约": "anticipatory breach",
+    "根本违约": "fundamental breach",
+    "同时履行抗辩权": "defense of simultaneous performance",
+    "代位权": "subrogation right",
+    "撤销权": "right of revocation（合同法上）/ right of rescission（可撤销合同）"
+  },
+  "公司": {
+    "注册资本": "registered capital",
+    "实缴出资": "paid-in capital",
+    "认缴出资": "subscribed capital",
+    "股东会": "shareholders' meeting",
+    "董事会": "board of directors",
+    "法定代表人": "legal representative（**中国法特有，无英美法对应**，须加注）",
+    "实际控制人": "actual controller",
+    "一致行动人": "persons acting in concert",
+    "法人人格否认": "piercing the corporate veil",
+    "同业竞争": "horizontal competition",
+    "关联交易": "related-party transaction",
+    "对赌": "valuation adjustment mechanism (VAM)（**不译作 gambling**）",
+    "优先清算权": "liquidation preference",
+    "领售权": "drag-along right",
+    "随售权": "tag-along right",
+    "反稀释": "anti-dilution",
+    "优先购买权": "right of first refusal"
+  },
+  "诉讼": {
+    "管辖": "jurisdiction",
+    "专属管辖": "exclusive jurisdiction",
+    "诉讼时效": "limitation period（**不是 statute of limitations 的直译**，中国法的时效是抗辩事由）",
+    "举证责任": "burden of proof",
+    "举证责任倒置": "reversal of burden of proof",
+    "质证": "cross-examination of evidence",
+    "保全": "preservation（财产保全 property preservation）",
+    "先予执行": "advance execution",
+    "再审": "retrial",
+    "调解": "mediation",
+    "仲裁裁决": "arbitral award",
+    "既判力": "res judicata",
+    "一事不再理": "ne bis in idem"
+  },
+  "劳动": {
+    "经济补偿金": "severance pay",
+    "赔偿金": "damages / compensation（违法解除赔偿金 damages for unlawful termination）",
+    "竞业限制": "non-compete restriction",
+    "劳务派遣": "labor dispatch",
+    "工伤": "work-related injury",
+    "社会保险": "social insurance"
+  },
+  "合规": {
+    "个人信息处理者": "personal information handler（**PIPL 官方译法，不是 data controller**）",
+    "敏感个人信息": "sensitive personal information",
+    "单独同意": "separate consent",
+    "数据出境": "cross-border data transfer",
+    "安全评估": "security assessment",
+    "关键信息基础设施运营者": "critical information infrastructure operator (CIIO)"
+  },
+  "_易错提示": [
+    "**法定代表人 ≠ legal person**。legal person 是「法人」，法定代表人是 legal representative",
+    "**违约金译作 penalty 有风险**——英美法下 penalty clause 可能不可执行，用 liquidated damages",
+    "**解除**要区分 terminate（向后）与 rescind（溯及既往），中文「解除」两义皆有，须按语境选择",
+    "**中国法特有概念无对应词的，音译或直译 + 加注说明**，不要强行套用英美法概念——套错会让对方按错误的法律框架理解",
+    "**同一份文件中同一术语必须译法统一**，这是法律翻译最基本也最常被违反的要求"
+  ]
+}
