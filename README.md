@@ -1,6 +1,6 @@
 # Legal Agent Skills
 
-面向中文法律工作的 AI 技能与专家工作流集合，包含 **60 个技能、33 个专家配置**，以及 Python 辅助脚本、模板、评估用例和可部署包。技能覆盖法律检索、诉讼分析、合同审查、企业合规与文书处理。
+面向中文法律工作的 AI 技能与专家工作流集合，包含 **70 个技能、34 个专家配置**，以及 Python 辅助脚本、模板、评估用例和可部署包。技能覆盖法律检索、诉讼分析、合同审查、企业合规、外国企业来华业务与文书处理。
 
 ## 内容概览
 
@@ -8,11 +8,39 @@
 | --- | ---: | --- |
 | [底座技能](skills/core/) | 6 | 法规与案例检索、法条核验、案例援引与论证审查、法律计算 |
 | [诉讼技能](skills/litigation/) | 27 | 接案研判、类案检索、请求权与证据分析、文书起草、庭审、执行及专项争议 |
-| [非诉技能](skills/nonlitigation/) | 16 | 合同审查、尽职调查、公司治理、劳动与数据合规、监管与交易文件 |
-| [工具技能](skills/utility/) | 11 | 脱敏、卷宗编目、合同对比、文书排版、结构图、翻译、培训与服务方案 |
-| [专家工作流](experts/) | 33 | 按业务场景组合技能，定义任务前提、执行顺序和交付要求 |
+| [非诉技能](skills/nonlitigation/) | 24 | 合同审查、尽职调查、公司治理、劳动与数据合规、监管、来华业务及交易文件 |
+| [工具技能](skills/utility/) | 13 | 脱敏、编目、合同对比、文书排版、结构图、翻译、培训、企业服务季协作与进博宣讲 |
+| [专家工作流](experts/) | 34 | 按业务场景组合技能，定义任务前提、执行顺序和交付要求 |
 
 完整技能名称见 [技能命名对照表](conventions/skill-naming.md)。目录名是稳定的技术标识，`SKILL.md` 中的 `name` 是中文展示名称。
+
+## 企业服务季
+
+[企业服务季全程协作](skills/utility/util-enterprise-service-season/) 从已有任务恢复，组织了解企业、首次联系、顾问洽谈、真实服务、客户跟进与续约报价。技能配有平台使用手册、工作簿及三类评估用例；在其他宿主运行时使用其已有文件、对话和项目机制。
+
+[市场安装入口](https://skill.zhiexa.com/skills?section=market&tag=enterprise-service-season) 提供标签筛选和可选辅助技能的一键补齐。安装不改变活动资格、费用、查询开放状态或已有锁定版本。客户联系、委托、法律意见和报价由律师决定。
+
+## 外国企业来华法律服务
+
+官方九项技能组成“准入—落地—经营—展会—持续服务”的工作流，并配有[来华经营法律服务专家](experts/expert-china-business/)。这是官方技能开源活动的来华业务专题，也是 Skill 中心参与进博会宣讲的演示套件；具体参展审核、展位与宣讲时间以实际安排为准。
+
+| 技能 | 主要交付 |
+| --- | --- |
+| [来华业务统筹](skills/nonlitigation/nonlit-orchestrate-china-business/) | 受理事实、跨专项路线图、律师签核与交接 |
+| [外资准入研判](skills/nonlitigation/nonlit-assess-china-investment-access/) | 地域/行业准入、许可及不同监管路径 |
+| [来华设立规划](skills/nonlitigation/nonlit-plan-china-entity/) | 实体方案、治理、登记材料与设立后义务 |
+| [来华合同审查](skills/nonlitigation/nonlit-draft-china-contracts/) | 双语条款、修改建议、谈判与争议安排 |
+| [中国知产布局](skills/nonlitigation/nonlit-plan-china-ip/) | 权利盘点、检索与申请计划、商业秘密及展前披露 |
+| [来华用工规划](skills/nonlitigation/nonlit-plan-china-employment/) | 雇佣模式、制度程序、派驻与工作居留事项 |
+| [来华税关汇筹划](skills/nonlitigation/nonlit-plan-china-tax-customs-fx/) | 交易/货流/款流/票据核对与专业人员交接 |
+| [来华数据合规](skills/nonlitigation/nonlit-assess-china-data/) | 数据流、角色、影响评估及出境路径证据 |
+| [进博法律宣讲](skills/utility/util-run-ciie-legal-demo/) | 展前/展中/展后任务、虚构企业演示与宣讲材料 |
+
+[一键安装专题](https://skill.zhiexa.com/skills?section=market&tag=foreign-enterprise-china) · [开源学习活动](https://skill.zhiexa.com/static/open-source-skills.html#foreign-enterprise-china)
+
+每项技能提供来源台账、交付模板和正常/缺事实/规则变化评估用例。每次运行重新核验业务、地域和日期适用的官方规则，区分法律、办事指南、问答和征求意见稿；未取得依据的结论保持待核。研究草案、最终法律意见与实际申报状态分别记录。税务、关务、专利等事项按需要交相应专业人员协作。
+
+源码及模板不包含客户材料、服务凭据或数据库访问权。“官方”表示 Skill 中心制作维护，不表示政府或进博会背书，也不承诺审批、税务优惠、获客或成交结果。
 
 ## 目录结构
 

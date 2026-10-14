@@ -2,7 +2,7 @@
 
 > 目录名是稳定标识（英文），name 是展示名称（中文，用户可见）。
 
-共 60 个技能。
+共 70 个技能。
 
 | 分组 | 目录标识 | 展示名称 |
 |---|---|---|
@@ -40,17 +40,25 @@
 | 诉讼 | `lit-search-similar-cases` | 类案检索 |
 | 诉讼 | `lit-shareholder-dispute` | 股东权利救济路径 |
 | 非诉 | `nonlit-admin-penalty-benchmark` | 行政处罚裁量基准比对 |
+| 非诉 | `nonlit-assess-china-data` | 来华数据合规 |
+| 非诉 | `nonlit-assess-china-investment-access` | 外资准入研判 |
 | 非诉 | `nonlit-clause-benchmark` | 条款范本与修改建议 |
 | 非诉 | `nonlit-compliance-obligation-matrix` | 合规义务矩阵 |
 | 非诉 | `nonlit-corporate-governance` | 公司治理与股权架构 |
 | 非诉 | `nonlit-data-compliance` | 数据合规评估 |
 | 非诉 | `nonlit-dd-opinion` | 尽调发现与法律意见 |
+| 非诉 | `nonlit-draft-china-contracts` | 来华合同审查 |
 | 非诉 | `nonlit-due-diligence` | 尽职调查清单 |
 | 非诉 | `nonlit-ipo-review` | IPO法律审核 |
 | 非诉 | `nonlit-labor-compliance` | 劳动人事合规 |
 | 非诉 | `nonlit-litigation-response` | 应诉应急响应 |
 | 非诉 | `nonlit-new-business-review` | 新业务法律评估 |
 | 非诉 | `nonlit-new-rule-tracking` | 新规追踪 |
+| 非诉 | `nonlit-orchestrate-china-business` | 来华业务统筹 |
+| 非诉 | `nonlit-plan-china-employment` | 来华用工规划 |
+| 非诉 | `nonlit-plan-china-entity` | 来华设立规划 |
+| 非诉 | `nonlit-plan-china-ip` | 中国知产布局 |
+| 非诉 | `nonlit-plan-china-tax-customs-fx` | 来华税关汇筹划 |
 | 非诉 | `nonlit-regulatory-inspection` | 监管检查与约谈应对 |
 | 非诉 | `nonlit-regulatory-penalty-scan` | 监管处罚画像 |
 | 非诉 | `nonlit-review-contract` | 合同审查 |
@@ -62,7 +70,9 @@
 | 工具 | `util-diagram` | 结构图生成 |
 | 工具 | `util-docx-format` | 法律文书排版 |
 | 工具 | `util-engagement-proposal` | 工作方案与报价 |
+| 工具 | `util-enterprise-service-season` | 企业服务季全程协作 |
 | 工具 | `util-legal-training` | 企业普法培训 |
 | 工具 | `util-legal-translation` | 法律翻译与术语一致 |
 | 工具 | `util-plain-language` | 法律意见通俗化 |
 | 工具 | `util-research-memo` | 检索报告成稿 |
+| 工具 | `util-run-ciie-legal-demo` | 进博法律宣讲 |
