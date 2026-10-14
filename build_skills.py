@@ -44,6 +44,16 @@ SHARED_SCRIPTS = {
 }
 
 INJECT = {
+    'util-enterprise-service-season': ["retrieval-contract.md", "output-formats.md", "time-effect.md"],
+    'nonlit-orchestrate-china-business': ["retrieval-contract.md", "output-formats.md", "time-effect.md"],
+    'nonlit-assess-china-investment-access': ["retrieval-contract.md", "output-formats.md", "time-effect.md"],
+    'nonlit-plan-china-entity': ["retrieval-contract.md", "output-formats.md", "time-effect.md"],
+    'nonlit-draft-china-contracts': ["retrieval-contract.md", "output-formats.md", "time-effect.md", "code-tables.md"],
+    'nonlit-plan-china-ip': ["retrieval-contract.md", "output-formats.md", "time-effect.md", "code-tables.md"],
+    'nonlit-plan-china-employment': ["retrieval-contract.md", "output-formats.md", "time-effect.md", "code-tables.md"],
+    'nonlit-plan-china-tax-customs-fx': ["retrieval-contract.md", "output-formats.md", "time-effect.md"],
+    'nonlit-assess-china-data': ["retrieval-contract.md", "output-formats.md", "time-effect.md"],
+    'util-run-ciie-legal-demo': ["retrieval-contract.md", "output-formats.md", "time-effect.md"],
     "zhihe-law-search": ["retrieval-contract.md", "output-formats.md"],
     "zhihe-case-search": ["retrieval-contract.md", "code-tables.md", "output-formats.md"],
     "core-verify-statute-validity": ["retrieval-contract.md", "output-formats.md", "time-effect.md"],
